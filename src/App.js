@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
+import './css/index.css';
+
 import Home from './page/Home';
 import ErrorPage from './page/ErrorPage';
 
