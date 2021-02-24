@@ -4,7 +4,7 @@ body {
 }
 .container {
     width: 375px !important;
-    height: 1393px;
+    /* height: 1393px; */
     margin: auto;
     padding: 20px 0 35px;
     background-color: #191f2c;
@@ -70,12 +70,93 @@ body {
 .home-section1 .text-area {
     display: inline-block;
 }
-
+.home-section2 {
+    width: 100%;
+    text-align: center;
+}
 .home-section2 .text-input {
     width: 300px;
     height: 50px;
-    margin: 30px 36px 15px 35px;
+    border: none;
+    border-radius: 30px;
+    color: #8F919A;
+    outline: none;
+    background-color: #272b38;
+    text-align: center;
+}
+.home-section2 .text-input::placeholder {
+    text-align: center;
 }
 .home-section2 .searchBtn {
-
+    width: 302px;
+    height: 48px;
+    background-color: #3074f2;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.home-section2 .searchBtn:active {
+    background-color: #2458b9;
+}
+.home-section3, .home-section4 {
+    width: 252px;
+    background-color: #272b38;
+    margin: 30px 36px 15px 37px;
+    object-fit: contain;
+    padding: 20px 24.5px 20px 24px;
+    border-radius: 24px;
+    box-shadow: 8px 16px 32px 0px rgba(0, 0, 0, 0.1);
+}
+.kart-board-title {
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    text-align: left;
+    color: #ffffff;
+    line-height: 1.7;
+    margin: 0px 20px 10px 0.5px;
+    font-family: AppleSDGothicNeo;
+}
+.title-hr {
+    border-color: #3d414c;
+    border-style: solid;
+    margin: 0px;
+}
+.home-section3 .board-item, .home-section4 .board-item {
+    width: 100%;
+    padding: 12px 0px 12px 0px;
+    /* height: 54px; */
+    border-bottom: 1px solid #3d414c;
+    color: #ffffff;
+}
+.home-section3 .rank-img {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: 15px;
+}
+.home-section3 .kart-body {
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 25px;
+}
+.home-section3 .kart-img {
+    float: right;
+}
+.home-section4 .board-item-p {
+    opacity: 0.5;
+    font-family: AppleSDGothicNeo;
+    color: #ffffff;
+    font-size: 12px;
+}
+.home-section4 .board-bottom-area {
+    text-align: center;
+}
+.home-section4 .board-bottom-area .more {
+    font-size: 12px;
+    color: #ffffff;
+    margin-top: 25px;
 }
