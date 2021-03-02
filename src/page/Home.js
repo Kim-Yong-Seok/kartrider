@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/index.css';
 import Header from '../components/Header';
 
 function Home() {
@@ -27,7 +26,7 @@ function Home() {
                         <img src="/kartranek.png" className="kart-img" alt="kart body" />
                     </div>
                     <div className="board-item">
-                        <img src="/2.png" className="rank-img" alt="rank" />
+                        <img src="/2.png" className="rank-img" alt="rank" /> 
                         <span className="kart-body">카트라넥X</span>
                         <img src="/kartranek.png" className="kart-img" alt="kart body" />
                     </div>
