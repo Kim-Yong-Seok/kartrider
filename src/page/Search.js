@@ -72,7 +72,7 @@ function Search() {
             </div>
             <div className="search-section4">
                 <div className="match-list">
-                    <div className="aside-color"></div>
+                    <div className="aside-color win"></div>
                     <div className="match-info">
                         <p className="date">4일전</p>
                         <p className="map">MAP</p>
@@ -89,7 +89,95 @@ function Search() {
                     <img src="/kart.png" className="kart-img" />
                     <p className="kart-name">흑기사X</p>
                 </div>
+                <div className="match-detail-list">
+                    <img src="/1.png" className="rank-number" />
+                    <div className="user-area">
+                        <p className="user">Yongs</p>
+                        <p className="user-record">1'31'333</p>
+                    </div>
+                    <img src="/kart.png" className="kart-img" />
+                </div>
+                <div className="match-detail-list">
+                    <img src="/2.png" className="rank-number" />
+                    <div className="user-area">
+                        <p className="user">Yongs</p>
+                        <p className="user-record">1'31'333</p>
+                    </div>
+                    <img src="/kart.png" className="kart-img" />
+                </div>
+                <div className="match-detail-list">
+                    <img src="/3.png" className="rank-number" />
+                    <div className="user-area">
+                        <p className="user">Yongs</p>
+                        <p className="user-record">1'31'333</p>
+                    </div>
+                    <img src="/kart.png" className="kart-img" />
+                </div>
+                <div className="match-detail-list">
+                    <img src="/4.png" className="rank-number" />
+                    <div className="user-area">
+                        <p className="user">Yongs</p>
+                        <p className="user-record">1'31'333</p>
+                    </div>
+                    <img src="/kart.png" className="kart-img" />
+                </div>
                 
+                <div className="match-list">
+                    <div className="aside-color win"></div>
+                    <div className="match-info">
+                        <p className="date">4일전</p>
+                        <p className="map">MAP</p>
+                        <p className="win-or-lose">승리</p>
+                        <p className="record">기록</p>
+                    </div>
+                    <div className="match-detail">
+                        <p className="map">차이나 황산</p>
+                        <p className="rank">#2/3</p>
+                        <div className="div"></div>
+                        <p className="record">1'35'12</p>
+                    </div>
+                    <div className="div1"></div>
+                    <img src="/kart.png" className="kart-img" />
+                    <p className="kart-name">흑기사X</p>
+                </div>
+
+                <div className="match-list">
+                    <div className="aside-color win"></div>
+                    <div className="match-info">
+                        <p className="date">4일전</p>
+                        <p className="map">MAP</p>
+                        <p className="win-or-lose">승리</p>
+                        <p className="record">기록</p>
+                    </div>
+                    <div className="match-detail">
+                        <p className="map">차이나 황산</p>
+                        <p className="rank">#2/3</p>
+                        <div className="div"></div>
+                        <p className="record">1'35'12</p>
+                    </div>
+                    <div className="div1"></div>
+                    <img src="/kart.png" className="kart-img" />
+                    <p className="kart-name">흑기사X</p>
+                </div>
+
+                <div className="match-list">
+                    <div className="aside-color lose"></div>
+                    <div className="match-info">
+                        <p className="date">4일전</p>
+                        <p className="map">MAP</p>
+                        <p className="win-or-lose">승리</p>
+                        <p className="record">기록</p>
+                    </div>
+                    <div className="match-detail">
+                        <p className="map">차이나 황산</p>
+                        <p className="rank">#2/3</p>
+                        <div className="div"></div>
+                        <p className="record">1'35'12</p>
+                    </div>
+                    <div className="div1"></div>
+                    <img src="/kart.png" className="kart-img" />
+                    <p className="kart-name">흑기사X</p>
+                </div>
             </div>
         </div>
     );
