@@ -4,7 +4,7 @@ body {
 }
 .container {
     width: 375px !important;
-    height: 1393px;
+    /* height: 1393px; */
     margin: auto;
     padding: 20px 0 35px;
     background-color: #191f2c;

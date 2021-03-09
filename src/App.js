@@ -5,7 +5,7 @@ import './css/index.css';
 
 import Home from './page/Home';
 import ErrorPage from './page/ErrorPage';
-import Search from './page/Search';
+import SearchContainer from './container/SearchContainer';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={ Home } />
         <Route path="/home" component={ Home } />
-        <Route path="/search" component={ Search } />
+        <Route path="/search" component={ SearchContainer } />
         <Route component={ ErrorPage } />
       </Switch>
     </Router>

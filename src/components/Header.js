@@ -5,7 +5,7 @@ function Header({ searchBtn }) {
     
     return (
         <div className="header">
-            <p className="title">KARTRIDER</p>
+            <p className="title" onClick={ () => { window.location.href='/'; } }>KARTRIDER</p>
             { searchBtn && <img src="/search.png" className="searchBtn" alt="search" /> }
         </div>
     );

@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 
 function Home() {
+    const [ searchId, setSearchId ] = useState();
+
+    const onChangeSearchID = ( e ) => {
+        setSearchId( e.target.value );
+    };
+
+    const submitUserId = () => {
+        
+    }
+    
     return (
         <div className="container">
             <Header />
@@ -13,8 +24,10 @@ function Home() {
                 <img src="/home_character.png" className="home-character" alt="kartImage"></img>
             </div>
             <div className="home-section2">
-                <input type="text" className="text-input" placeholder="카트라이더 닉네임 입력" />
-                <button type="button" className="searchBtn">검색</button>
+                <input type="text" className="text-input" placeholder="카트라이더 닉네임 입력" onChange={ onChangeSearchID }/>
+                <Link to={{ pathname: '/search', id: searchId }}>
+                    <button type="button" className="searchBtn" onClick={ submitUserId } >검색</button>
+                </Link>
             </div>
             <div className="home-section3">
                 <p className="kart-board-title">카트 랭킹 TOP5</p>
